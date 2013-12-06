@@ -4,7 +4,7 @@
     <groupId>fitbit-webapp-example</groupId>
     <artifactId>fitbit-webapp-example</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <dependencies>
         <dependency>
             <groupId>com.sparkjava</groupId>
