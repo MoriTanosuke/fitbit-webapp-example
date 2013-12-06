@@ -8,11 +8,14 @@ on a graph.
 How do I run this?
 ==================
 
+[Register a *desktop* application][3] and copy your applications *consumer key* and *secret*.
+
 Download the latest release JAR, open a Terminal and type this:
 
-    java -jar fitbit-webapp-example-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+    java -DCONSUMER_KEY=XXX -DCONSUMER_SECRET=YYY -jar fitbit-webapp-example-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
 After that, open a browser and point it to http://127.0.0.1:4567 - that's it.
 
 [0]: https://wiki.fitbit.com/display/API/OAuth+Authentication+in+the+Fitbit+API
 [1]: http://dev.fitbit.com/
+[3]: https://dev.fitbit.com/apps
